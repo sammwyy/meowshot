@@ -12,9 +12,7 @@ class KeyMonitor(QtCore.QObject):
         return self.listener
 
     def on_release(self, key):
-        if key == Key.print_screen:
-            self.keyPressed.emit("print")
-        elif key == Key.enter:
+        if key == Key.enter:
             self.keyPressed.emit("enter")
         elif key == Key.esc:
             self.keyPressed.emit("esc")

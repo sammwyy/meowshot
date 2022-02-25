@@ -22,7 +22,7 @@ pip install -r requirements.txt > /dev/null
 
 # Move source files to /usr/share.
 sudo mkdir /usr/share/meowshot
-sudo cp ./src/* /usr/share/meowshot
+sudo cp -r ./src/* /usr/share/meowshot
 
 # Create bin under /usr/bin.
 echo "#!/bin/bash" > /usr/bin/meowshot
