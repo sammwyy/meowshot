@@ -5,5 +5,5 @@
 
 You can install meowshot by running the following command in your terminal.  
 ```bash
-curl -s https://raw.githubusercontent.com/sammwyy/meowshot/main/scripts/installer.sh | sudo bash /dev/stdin arg1 arg2
+curl -s https://raw.githubusercontent.com/sammwyy/meowshot/main/scripts/install.sh | sudo bash /dev/stdin arg1 arg2
 ```
